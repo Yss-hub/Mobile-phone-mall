@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yunji.phoneshoppingcar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="手机销售管理系统"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity android:name=".login">
+
+        </activity>
+        <activity android:name=".Register"></activity>
+        <activity android:name=".viplogin"></activity>
+        <activity android:name=".FragmentActivity"></activity>
+
+        <activity android:name=".VipRegister"></activity>
+        <activity android:name=".VipLoginAfter"></activity>
+
+        <activity android:name=".phonexinxiActivity"></activity>
+        <activity android:name=".vipxinxi"></activity>
+        <activity android:name=".addvipWindow" android:theme="@style/MyDialogStyleBottom"></activity>
+        <activity android:name=".phoneaddWindow" android:theme="@style/MyDialogStyleBottom"></activity>
+        <activity android:name=".Vipchang"></activity>
+        <activity android:name=".OpinionActivity"></activity>
+        <activity android:name=".shoppingcaritemActivity"></activity>
+
+
+    </application>
+
+</manifest>
